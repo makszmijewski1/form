@@ -1,0 +1,112 @@
+<html>
+
+<head>
+    <title>Rejestracja</title>
+    <meta charset="UTF-8">
+    <meta name="form" content="form">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-GLhlTQ8iRABdZLl6O3oVMWSktQOp6b7In1Zl3/Jr59b6EGGoI1aFkw7cmDA6j6gD" crossorigin="anonymous">
+</head>
+
+<body>
+<form class="container-sm">
+        <h1>Rejestracja</h1>
+        <div class="form-group mb-4">
+            <div class="col-md-12">
+                <label for="inputFirstName" class="form-label">Imię</label>
+                <input type="text" class="form-control" id="inputFirstName" placeholder="Wpisz imię">
+            </div>
+        </div>
+        <div class="form-group mb-4">
+            <div class="col-md-12">
+                <label for="inputLastName" class="form-label">Naziwsko</label>
+                <input type="text" class="form-control" id="inputLastName" placeholder="Wpisz nazwisko">
+            </div>
+        </div>
+        <div class="form-row d-flex">
+            <div class="form-group col-md-2">
+                Płeć
+            </div>
+
+            <div class="form-group col-md-10">
+                <div class="form-check">
+                    <input class="form-check-input" type="radio" name="gender" id="gender">
+                    <label class="form-check-label" for="gender">
+                        Kobieta
+                    </label>
+                </div>
+                <div class="form-check">
+                    <input class="form-check-input" type="radio" name="gender" id="gender">
+                    <label class="form-check-label" for="gender">
+                        Mężczyzna
+                    </label>
+                </div>
+            </div>
+        </div>
+        <div class="form-group mb-4">
+            <div class="col-md-12">
+                <label for="inputMail" class="form-label">Adres email</label>
+                <input type="mail" class="form-control" id="inputMail" placeholder="Wpisz adres email">
+            </div>
+        </div>
+        <div class="form-group mb-4">
+            <div class="col-md-12">
+                <label for="inputPassword" class="form-label">Hasło</label>
+                <input type="password" class="form-control" id="inputPassword" placeholder="Hasło">
+            </div>
+        </div>
+        <div class="d-flex flex row mb-4">
+            <div class="col-md-6">
+                <label for="inputCity" class="form-label">Miasto</label>
+                <input type="text" class="form-control" id="inputCity">
+            </div>
+            <div class="col-md-4">
+                <label for="inputProvince" class="form-label">Województwo</label>
+                <select id="inputProvince" class="form-select">
+                    <option selected>Wybierz</option>
+                    <option selected>Wybierz</option>
+                    <option>dolnośląskie</option>
+                    <option>kujawsko-pomorskie</option>
+                    <option>lubelskie</option>
+                    <option>lubuskie</option>
+                    <option>łódzkie</option>
+                    <option>małopolskie</option>
+                    <option>mazowieckie</option>
+                    <option>opolskie</option>
+                    <option>podkarpackie</option>
+                    <option>podlaskie</option>
+                    <option>pomorskie</option>
+                    <option>śląskie</option>
+                    <option>świętokrzyskie</option>
+                    <option>warmińsko-mazurskie</option>
+                    <option>wielkopolskie</option>
+                    <option>zachodniopomorskie</option>
+
+                </select>
+            </div>
+            <div class="col-md-2">
+                <label for="inputPostcode" class="form-label">Kod pocztowy</label>
+                <input type="text" class="form-control" id="inputPostcode">
+            </div>
+        </div>
+        <div class="col-12">
+            <div class="form-check">
+                <input class="form-check-input" type="checkbox" id="regulationsCheck">
+                <label class="form-check-label" for="regulationsCheck">
+                    Akceptuje <a href="regulations.html">regulamin</a>
+                </label>
+            </div>
+            <div class="form-check">
+                <input class="form-check-input" type="checkbox" id="agreementCheck" checked>
+                <label class="form-check-label" for="agreementCheck">
+                    Wyrażam zgodę na otrzymywanie informacji marketingowych
+                </label>
+            </div>
+        </div>
+        <div class="col-12">
+            <button type="submit" class="btn btn-primary">Rejestruj</button>
+        </div>
+    </form>
+</body>
+
+</html>
